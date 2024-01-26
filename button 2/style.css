@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "intelOne display";
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .btn {
+    padding: 10px;
+  }
+
+  #btnOpener svg {
+    width: 21px;
+    fill: #363636;
+  }
+
+  #btnOpener {
+    gap: 12px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #d7d7d7 1.4px solid;
+    border-radius: 5.56px;
+    background-color: #f7f7f7;
+    transition: 0.2s ease;
+  }
+
+  #btnOpener:hover {
+    transform: scale(0.89);
+  }

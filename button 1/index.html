@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>button</title>
+    <style>
+      * {
+        font-family: fervojo;
+        box-sizing: border-box;
+      }
+      body {
+      }
+
+      .action--back-trigger a {
+        text-decoration: none;
+      }
+
+      .action--back-trigger button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 14px;
+        padding-left: 17px;
+        padding-right: 17px;
+        transition: 0.2s ease;
+        border: #d8d8d8 2px solid;
+        border-radius: 5px;
+        background-color: aliceblue;
+      }
+
+      .action--back-trigger button:hover {
+        gap: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="action--back-trigger">
+      <a href="">
+        <button>
+          kembali
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+          </svg>
+        </button>
+      </a>
+    </div>
+  </body>
+</html>
