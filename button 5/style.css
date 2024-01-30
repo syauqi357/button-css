@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  padding: 12px;
+}
+
+.btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 23px 9px 23px;
+  gap: 12px;
+  background-color: #a6c81e;
+  border: #6e831c 2.45px solid;
+  border-radius: 5.76px;
+  color: azure;
+  transition: 0.2s ease;
+}
+
+.btn button:hover {
+  gap: 24px;
+}
+
+.icon svg {
+  width: 24px;
+  fill: azure;
+}
+
+span {
+  font-size: 15px;
+  font-weight: 700;
+}
