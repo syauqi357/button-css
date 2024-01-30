@@ -39,6 +39,10 @@ svg {
   align-items: center;
 }
 
+.content button:hover {
+  cursor: pointer;
+}
+
 .content button:nth-child(1) {
   background-color: #fc5753;
   border: #df4744 3px solid;
